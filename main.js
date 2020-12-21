@@ -64,6 +64,7 @@ function selectClickedElement(element) {
 
 function submitAnswer(thisElement) {
     let answers = document.querySelectorAll('.answers');
+    let scoreDisplay = document.getElementById('score-display');
 
     if (isClickedOnSubmit == 0) {
         answers.forEach(elements => {
@@ -71,13 +72,19 @@ function submitAnswer(thisElement) {
                 if (elements.querySelector('p').textContent == questions[quize].correctAnswer) {
                     elements.style.background = 'rgb(19, 221, 19)'; //Green
                     score++
-                    console.log(score)
                 } else {
                     elements.style.background = 'rgb(221, 19, 19)'; //red
                 }
+            } else if (elements.style.background != 'rgb(249, 221, 7)') {
+                elements.style.background = 'rgb(221, 19, 19)'
+                if (elements.querySelector('p').textContent == questions[quize].correctAnswer) {
+                    elements.style.background = 'rgb(19, 221, 19)'; //Green
+                }
             }
+
         })
     }
+    scoreDisplay.textContent = score
     goToTheNextQuestion(thisElement)
 }
 

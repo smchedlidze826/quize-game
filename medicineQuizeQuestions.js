@@ -1,17 +1,17 @@
 let questions = [{
-        question: 'რამდენჯერ ცემს გული დღის განმავლობაში',
-        img: './medicineQuizeAssets/binaries.png',
-        correctAnswer: '86 000 - 144 000',
-        wrongAnswer1: '60 000 - 77 000',
-        wrongAnswer2: '155 000 - 200 000',
-        wrongAnswer3: '15 000 - 35 000 '
+        question: 'რომელია სხეულის ყველაზე ბინძური ნაწილი',
+        img: './medicineQuizeAssets/shxapi.jpg',
+        correctAnswer: 'ჭიპი',
+        wrongAnswer1: 'ხელი',
+        wrongAnswer2: 'ყური',
+        wrongAnswer3: 'ენა'
     },
     {
         question: 'რომელია სწორი დებულება',
         img: './medicineQuizeAssets/question.jpg',
         correctAnswer: ' ადამიანს საკვების მიღების შემდეგ შედარებით ცუდად ესმის',
         wrongAnswer1: 'ადამიანი დაცემინებისას წონაში ილებს 200გრ-ით ',
-        wrongAnswer2: 'სუნის არქმის უნარი დაბადებიდან კაცებს უფრო განვითარებული აქვთ ვიდრე ქალებს',
+        wrongAnswer2: 'სუნის აღქმის უნარი დაბადებიდან კაცებს უფრო განვითარებული აქვთ ვიდრე ქალებს',
         wrongAnswer3: 'დაცემინების სისწრაფე შეადგენს 200კმ საათს'
     },
     {
@@ -23,7 +23,7 @@ let questions = [{
         wrongAnswer3: '208'
     },
     {
-        question: 'ადამიანის სხვეულის რომელ ნაწილში მდებარეობს ყველაზე მცირე ზომის ძვლები',
+        question: 'ადამიანის სხეულის რომელ ნაწილში მდებარეობს ყველაზე მცირე ზომის ძვლები',
         img: './medicineQuizeAssets/bones.jpg',
         correctAnswer: 'ყურებში',
         wrongAnswer1: 'თითებში',

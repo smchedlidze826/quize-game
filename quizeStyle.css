@@ -23,9 +23,19 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: linear-gradient(#75cac6, #3891A5);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 header h2 {
@@ -33,6 +43,11 @@ header h2 {
     font-size: 2.5rem;
     font-family: 'Lobster', cursive;
     font-weight: 300;
+}
+
+header div {
+    color: white;
+    font-size: 20px;
 }
 
 .content {

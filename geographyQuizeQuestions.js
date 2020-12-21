@@ -23,7 +23,7 @@ let questions = [{
         wrongAnswer3: 'ბრაზილია'
     },
     {
-        question: 'რომელი ყველაზე დიდი ვულკანი იაპონიაში',
+        question: 'რომელია ყველაზე დიდი ვულკანი იაპონიაში',
         img: './geographyQuizeAssets/fuji.jpg',
         correctAnswer: 'Fuji',
         wrongAnswer1: 'Sakurajima',
