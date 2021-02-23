@@ -113,3 +113,24 @@ header h3 {
 .flip-box-back button a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 550px) {
+  header{
+        height: 15vh;
+    }
+  header h3{
+       font-size: 20px;
+    }
+  .flip-box{
+       width: 300px;
+       height: 300px;
+   }
+  .flip-box-back h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: .5rem;
+    line-height: 1.5rem;
+    font-weight: 400; 
+   }
+}
