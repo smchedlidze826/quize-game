@@ -18,76 +18,12 @@
             <h3>Choose the quize you want to pass:</h3>
         </header>
         <div class="quize-container d-flex ">
-            <div class="flip-box">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img src="https://i.pinimg.com/474x/ab/82/b4/ab82b479321a81eae49d6a369171920d.jpg"
-                            alt="Geo-clothes">
-                    </div>
-                    <div class="flip-box-back">
-                        <h3>რამდენად კარგად იცნობ საქართველოს</h3>
-                        <button class="btn btn-success" onclick="getQuizeData(id)" id="geo">
-                            <a href="./quize.html">
-                                Start Now
-                            </a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-box">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img src="./assets/burtebi.jpg" alt="Ball">
-                    </div>
-                    <div class="flip-box-back">
-                        <h3>რამდენად კარგად იცი ფაქტები მსოფლიო სპორტის შესახებ</h3>
-                        <button class="btn btn-success" onclick="getQuizeData(id)" id="sport">
-                            <a href="./quize.html">
-                                Start Now
-                            </a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-box">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img src="./assets/medicine.jpg" alt="Ball">
-                    </div>
-                    <div class="flip-box-back">
-                        <h3>ფაქტები მედიცინიდან</h3>
-                        <button class="btn btn-success" onclick="getQuizeData(id)" id="medicine">
-                            <a href="./quize.html">
-                                Start Now
-                            </a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-box">
-                <div class="flip-box-inner">
-                    <div class="flip-box-front">
-                        <img src="./assets/geograpia.png" alt="map">
-                    </div>
-                    <div class="flip-box-back">
-                        <h3>გამოცადე შენი თავი გეოგრაფიაში</h3>
-                        <button class="btn btn-success" onclick="getQuizeData(id)" id="geography">
-                            <a href="./quize.html">
-                                Start Now
-                            </a>
-                        </button>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>
 
+
+    <script src="index.js"></script>
 </body>
-<script>
-    function getQuizeData(id) {
-        localStorage.setItem('selected', id)
-    }
-</script>
 
 </html>
