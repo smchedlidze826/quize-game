@@ -1,6 +1,6 @@
 let quizzeArr = [
     {
-        img: 'https://i.pinimg.com/474x/ab/82/b4/ab82b479321a81eae49d6a369171920d.jpg',
+        img: './assets/georg.jpg',
         title: 'რამდენად კარგად იცნობ საქართველოს',
         id: 'geo'
     },
