@@ -17,14 +17,7 @@ window.onload = function () {
     })
 }
 
-function randomizeAnswerOrder() {
-    let answers = document.querySelectorAll('.answers');
-    let randomIndex = Math.round(Math.random() * 3)
-    let tmpPosition = answers[randomIndex].innerHTML
-    answers[randomIndex].innerHTML = ''
-    answers[randomIndex].innerHTML = answers[0].innerHTML
-    answers[0].innerHTML = tmpPosition
-}
+
 
 function getHtml() {
     //transform string to variable with eval method
@@ -68,7 +61,14 @@ function selectClickedElement(element) {
     }
 }
 
-
+function randomizeAnswerOrder() {
+    let answers = document.querySelectorAll('.answers');
+    let randomIndex = Math.round(Math.random() * 3)
+    let tmpPosition = answers[randomIndex].innerHTML
+    answers[randomIndex].innerHTML = ''
+    answers[randomIndex].innerHTML = answers[0].innerHTML
+    answers[0].innerHTML = tmpPosition
+}
 
 function submitAnswer(thisElement) {
     let answers = document.querySelectorAll('.answers');
